@@ -132,10 +132,10 @@ body {
   margin-bottom: 20px;
 }
 
-.description {
+.description-me {
   line-height: 1.6;
   margin-bottom: 30px;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 
@@ -224,7 +224,7 @@ a {
 }
 
 /* Narasi kiri */
-.intro-title {
+.intro-me {
   font-size: 1.3rem;
   font-weight: 600;
   color: #1e293b; /* Warna teks gelap */
@@ -239,20 +239,20 @@ a {
 }
 
 /* Poin-poin list dengan ikon checklist biru */
-.skill-list {
+.skill-intro {
   list-style: none;
   padding: 0;
   margin: 0 0 30px 0;
 }
 
-.skill-list li {
+.skill-intro li {
   position: relative;
   padding-left: 35px;
   margin-bottom: 16px;
   line-height: 1.5;
 }
 
-.skill-list li::before {
+.skill-intro li::before {
   content: '';
   position: absolute;
   left: 0;
