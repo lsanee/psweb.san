@@ -22,8 +22,21 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
+<li><button id="cvBtn" class="cv-btn">Resume</button></li>
       </ul>
     </nav>
+
+<script>
+  document.getElementById("cvBtn").addEventListener("click", function() {
+    // buka CV di tab baru
+window.open("../Assets/Resume - Santi.pdf", "_blank");
+const link = document.createElement("a");
+link.href = "../Assets/Resume - Santi.pdf";
+link.download = "Resume - Santi .pdf";
+link.click();
+  });
+</script>
+
 
     <!-- Hero Section  -->
     <div class="container">
